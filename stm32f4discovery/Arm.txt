@@ -1,0 +1,4 @@
+m1 = 100g
+m2 = 190g
+Schwerpunkt vom Drehpunkt aus: ca 5cm
+

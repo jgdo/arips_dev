@@ -1,0 +1,34 @@
+L298 Rechts:
+EnableA: PB4
+EnableB: PC9
+
+Input1: PE9 TIM1 CH1
+Input2: PC6 TIM3 CH1
+Input3: PE11 TIM1 CH2
+Input4: PB5 TIM3 CH2
+
+L298 Links:
+EnableA: PB13
+EnableB: PB12
+
+Input1: PE13 TIM1 CH3
+Input2: PB1 TIM3 CH4
+Input3: PE14 TIM1 CH 4
+Input4: PB0 TIM3 CH3
+
+Analog:
+----------------
+|- A1 A2 A3 A4 |
+|+ A1 A2 A3 A4 |
+------    ------
+
+A1: PC1 ADC123_IN11 0
+A2: PC5 ADC12_IN15	1
+A3: PA3 ADC123_IN3	2
+A4: PA1 ADC123_IN1	3
+
+PB7 I2C1_SDA
+PB8 I2C1_SCL 
+
+LIDAR TX PC11 UART4_RX
+
